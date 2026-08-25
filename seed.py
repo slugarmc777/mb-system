@@ -18,12 +18,12 @@ try:
     else:
         admin = User(
             username="admin",
-            email="admin@example.com",
-            hashed_password=hash_password("ChangeMe123!"),
+            email="admin@mbsystem.com",
+            hashed_password=hash_password("Contraseña123"),
             role=RoleEnum.admin,
         )
         db.add(admin)
         db.commit()
-        print("Admin creado -> usuario: admin | password: ChangeMe123!  (cambiala luego)")
+        print("Admin creado -> usuario: admin | password: Contraseña123")
 finally:
     db.close()

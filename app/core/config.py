@@ -1,7 +1,7 @@
 """
 Configuracion centralizada de la aplicacion.
 
-Lee variables de entorno desde el archivo .env (ver .env.example) usando
+Lee variables de entorno desde el archivo .env (ver .env) usando
 pydantic-settings. Todo el resto del codigo importa `settings` desde aqui
 en vez de leer os.environ directamente.
 """

@@ -1,4 +1,4 @@
-# MB-System — Auth API (educativo)
+# MB-System — Auth API
 
 Sistema de autenticacion con FastAPI: registro, login/logout con JWT (access + refresh),
 roles `admin` / `usuario`, log de ingresos y cierres de sesion, bloqueo tras intentos fallidos,
